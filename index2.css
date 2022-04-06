@@ -1,0 +1,399 @@
+@media only screen and (min-width:960px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    @font-face {
+        font-family: 'manjari';
+        src: url(./Font-css/Manjari/Manjari-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'nunito';
+        src: url(./Font-css/Nunito/Nunito-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: 'roboto';
+        src: url(./Font-css/Roboto/Roboto-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'static';
+        src: url(./Font-css/static/Nunito-Regular.ttf);
+    }
+    body {
+        width: 1440px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header {
+        height: 130px;
+        width: 1440px;
+        display: flex;
+        align-items: center;
+        margin-left: 178px;
+        width: 442px;
+        justify-content: space-between;
+    }
+    .container {
+        width: 972px;
+        margin: 0 auto;
+        height: 3520px;
+    }
+    /* header */
+    header article {
+        display: flex;
+        width: 384px;
+        height: 48px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header article aside {
+        display: flex;
+        height: 48px;
+        flex-flow: row wrap;
+        width: 168px;
+        box-sizing: border-box;
+        align-content: space-between;
+    }
+    header article aside p {
+        margin: 0;
+    }
+    header article aside .p1 {
+        font-family: 'manjari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        color: #074F63;
+        width: 165px;
+        height: 26px;
+        margin-bottom: 0px;
+    }
+    header article aside .p2 {
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #808080;
+        width: 168px;
+        height: 20px;
+    }
+    header article button {
+        background: #D93F1D;
+        border-radius: 80px;
+        width: 125px;
+        height: 32px;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .btn-back {
+        width: 36px;
+        height: 17px;
+        position: relative;
+    }
+    .btn-back h2 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #545454;
+    }
+    /* container*/
+    .container article h1,
+    .h1-des,
+    .h1-fea {
+        width: 100%;
+        height: 56px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        color: #074F63;
+    }
+    .container article h1 i,
+    .i-description,
+    .i-features {
+        float: right;
+        height: 50px;
+        width: 50px;
+        background: rgba(210, 210, 210, 0.4);
+        border-radius: 50%;
+        text-align: center;
+    }
+    .container article ul {
+        list-style-type: none;
+        height: 16px;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+    .container article ul li {
+        display: inline-block;
+    }
+    .container article ul li a {
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #8FADB5;
+        text-decoration: none;
+        line-height: 16px;
+    }
+    .container article p:first-of-type,
+    .p1 {
+        width: 972px;
+        height: 42px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #808080;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+    .container article p:nth-of-type(2) {
+        width: 303px;
+        height: 21px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #808080;
+        line-height: 21px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container article p:nth-of-type(2) a {
+        width: 194px;
+        height: 21px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #18C4EE;
+        text-decoration: none;
+    }
+    /* banner*/
+    section {
+        margin-top: 45px;
+    }
+    /* description*/
+    .container .desctiption {
+        height: 162px;
+        margin-top: 80px;
+    }
+    .container .desctiption ul {
+        margin-left: 25px;
+    }
+    .container .desctiption ul li {
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #808080;
+        line-height: 30px;
+    }
+    /*feature*/
+    .features {
+        margin-top: 80px;
+    }
+    .features .feature1 {
+        width: 671px;
+        height: 271px;
+        margin-top: 50px;
+        display: flex;
+        margin-left: 111px;
+        margin-bottom: 80px;
+    }
+    .features .feature1 img {
+        width: 271px;
+        height: 271px;
+        box-shadow: -8px 8px 26px rgba(0, 0, 0, 0.24);
+        border-radius: 2px;
+        padding: 0;
+    }
+    .features .feature1 article {
+        display: flex;
+        flex-flow: row wrap;
+        width: 268.45px;
+        height: 150px;
+        align-content: space-between;
+        margin: 61px auto;
+    }
+    .features .feature1 article h2 {
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 385.17px;
+        height: 34px;
+        background: rgba(7, 79, 99, 0.5);
+    }
+    .features .feature1 article p {
+        width: 268.45px;
+        height: 105px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #808080;
+        align-items: flex-end;
+        margin-bottom: 0;
+    }
+    /*team-member*/
+    .teammember {
+        margin-top: 171px;
+        height: 727px;
+    }
+    .teammember h1 {
+        width: 280px;
+        height: 42px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        color: #074F63;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .teammember .informem {
+        width: 796px;
+        height: 661px;
+        margin-left: 36px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+    .teammember .informem .infor1 {
+        width: 296px;
+        height: 299px;
+    }
+    .teammember .informem .infor1 legend {
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #074F63;
+        height: 21px;
+        line-height: 20.09px
+    }
+    /*contact to us*/
+    .contact {
+        width: 873px;
+        height: 242px;
+        margin: 120px auto;
+    }
+    .contact-flex {
+        display: flex;
+        height: 200px;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+    .contact .contact-left {
+        width: 372px;
+        height: 168px;
+        box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+    }
+    .contact h1 {
+        width: 525px;
+        height: 42px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 700;
+        color: #074F63;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .contact .contact-left .wrap-left {
+        width: 230px;
+        height: 104px;
+        padding-top: 32px;
+        margin-left: 42px
+    }
+    .contact .contact-left ul {
+        list-style-type: none;
+    }
+    .contact .contact-left ul li {
+        line-height: 35px;
+    }
+    .contact .contact-left ul li i,
+    .iconright {
+        margin-right: 8px;
+        width: 24px;
+        height: 19.2px;
+        font-size: 20px;
+        color: #808080;
+    }
+    .contact .contact-left ul li a {
+        text-decoration: none;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #545454;
+    }
+    /********************/
+    .contact .contact-right {
+        width: 372px;
+        height: 168px;
+    }
+    .contact .contact-right .wrap-right {
+        margin-top: 36px;
+    }
+    .contact .contact-right ul {
+        list-style-type: none;
+    }
+    .contact .contact-right ul li {
+        width: 327px;
+        height: 32px;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .contact .contact-right ul li a {
+        text-decoration: none;
+        width: 222px;
+        height: 20px;
+        font-family: 'Manjari';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #545454;
+    }
+    /********************/
+    /******footer**********/
+    footer {
+        background-color: #007893;
+        width: 1440px;
+        height: 64px;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .left,
+    .right {
+        width: 314px;
+        height: 22.46px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #F5F5F5;
+        text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
+        margin-top: 21px;
+    }
+    footer .right {
+        width: 357px;
+    }
+}

@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*************** header*********************/
+
+@media only screen and (min-width:997px) {
+    header {
+        height: 22vh;
+        display: flex;
+    }
+    header article {
+        display: flex;
+        align-items: center;
+        margin-left: 11em;
+        width: 59vh;
+        justify-content: space-evenly;
+    }
+    header article .infor {
+        display: flex;
+        width: 53vh;
+        justify-content: space-evenly;
+    }
+    /**************container*******************/
+    .container {
+        width: 156vh;
+        height: 550vh;
+        margin: 0 auto;
+    }
+    .container article {
+        height: 26vh;
+    }
+    .container section {
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+    }
+    .container section .banner {
+        height: 78vh;
+        background-size: cover;
+    }
+    /************************************************/
+    .container .features {
+        margin-top: 16vh;
+    }
+    .container .features h1 {
+        margin-bottom: 8vh;
+    }
+    .container .features .feature1,
+    .feature2 {
+        display: flex;
+        margin: 0 auto;
+        width: 108vh;
+        margin-bottom: 3vh;
+    }
+    .features .feature1 .wrap {
+        width: 52vh;
+        height: 41vh;
+        margin-left: 12vh;
+    }
+    .features .feature1 .wrap h2 {
+        margin-top: 8vh;
+        margin-bottom: 6vh;
+    }
+    .features .feature2 .wrap2 {
+        width: 52vh;
+        height: 41vh;
+        margin-right: 12vh;
+    }
+    .features .feature2 .wrap2 h2 {
+        margin-top: 8vh;
+        margin-bottom: 6vh;
+    }
+    /***********************teammember************************/
+    .container .infor1 {
+        width: 42vh;
+    }
+    .container .infor1 legend {
+        padding-bottom: 2vh;
+    }
+    .container .teammember {
+        margin-top: 12vh;
+    }
+    .container .teammember .informem {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100vh;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 100vh;
+        margin: 0 auto;
+        margin-top: 4vh;
+    }
+    /*****************************contact*************************/
+    .contact {
+        margin-top: 30vh;
+    }
+    .contact .contact-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*****************************footer*************************/
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8vh;
+        flex-flow: row wrap;
+    }
+}
+
+
+/*************************************************************************/
+
+@media only screen and (min-width:768px) and (max-width:996px) {
+    header {
+        height: 17vh;
+    }
+    header article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 52vh;
+        margin-left: 5vh;
+        margin-top: 5vh;
+    }
+    header article .infor {
+        grid-area: 2/-3/3/-2;
+        display: flex;
+        align-items: center;
+        width: 32vh;
+        justify-content: space-between;
+    }
+    /**************container*******************/
+    .container {
+        width: 100vh;
+        height: 500vh;
+        margin: 0 auto;
+    }
+    .container article {
+        height: 26vh;
+    }
+    .container section {
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+    }
+    .container section .banner {
+        height: 50vh;
+        background-size: cover;
+    }
+    /***********************************************************/
+    .container .features h1 {
+        margin-top: 8vh;
+    }
+    .container .features h2 {
+        margin-bottom: 4vh;
+    }
+    .container .features .feature1 {
+        display: flex;
+        align-items: center;
+    }
+    .container .features .feature2 {
+        display: flex;
+        align-items: center;
+    }
+    .container .features .feature2 .wrap2 {
+        order: 2;
+    }
+    .container .features .feature2 img {
+        order: 1;
+    }
+    /***********************teammember************************/
+    .container .infor1 {
+        width: 42vh;
+    }
+    .container .infor1 legend {
+        padding-bottom: 2vh;
+    }
+    .container .teammember {
+        margin-top: 12vh;
+    }
+    .container .teammember .informem {
+        display: flex;
+        flex-flow: row wrap;
+        width: 94vh;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 94vh;
+        margin: 0 auto;
+        margin-top: 4vh;
+    }
+    /**************************contact*************************/
+    .contact {
+        margin-top: 30vh;
+    }
+    .contact .contact-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*****************************footer*************************/
+    footer {
+        display: flex;
+        height: 16vh;
+        align-content: space-evenly;
+        flex-flow: row wrap;
+    }
+    footer .left {
+        width: 100%;
+        margin-left: 14vh;
+    }
+    footer .right {
+        margin-left: 14vh;
+    }
+}
+
+
+/********************************************************************/
+
+@media only screen and (min-width:400px) and (max-width:501px) {
+    header {
+        height: 17vh;
+    }
+    header article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 40vh;
+        margin-left: 5vh;
+        margin-top: 5vh;
+    }
+    header article .infor {
+        grid-area: 2/-3/3/-2;
+        display: flex;
+        align-items: center;
+        width: 32vh;
+        justify-content: space-between;
+    }
+    /**************container*******************/
+    .container {
+        height: 640vh;
+        width: 27em;
+        margin: 0 auto;
+    }
+    .container article {
+        display: flex;
+        flex-flow: row wrap;
+        height: 36vh;
+    }
+    .container article ul {
+        align-content: flex-start;
+    }
+    .container section {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .container section .banner {
+        height: 30vh;
+        background-size: contain;
+    }
+    .container .desctiption {
+        margin-top: 12vh;
+    }
+    /*******************************/
+    .container .features h1 {
+        margin-bottom: 4vh;
+        margin-top: 8vh;
+    }
+    .container .features .feature1 {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 4vh;
+    }
+    .container .features .feature1 img {
+        order: 2;
+    }
+    .container .features .feature1 .wrap {
+        order: 1;
+    }
+    .container .features h2 {
+        margin-bottom: 3vh;
+    }
+    .container .features .feature2 {
+        margin-bottom: 4vh;
+    }
+    /***********************teammember************************/
+    .container .infor1 {
+        width: 42vh;
+        margin-bottom: 4vh;
+    }
+    .container .infor1 legend {
+        padding-bottom: 2vh;
+    }
+    .container .teammember {
+        margin-top: 8vh;
+    }
+    .container .teammember .title {
+        margin-bottom: 4vh;
+    }
+    /*******************************contact*************************************/
+    .contact .contact-right {
+        margin-top: 5vh;
+    }
+    .contact .contact-left {
+        width: 52vh;
+    }
+    /*****************************footer*************************/
+    footer {
+        display: flex;
+        height: 16vh;
+        align-content: space-evenly;
+        flex-flow: row wrap;
+    }
+    footer .left {
+        width: 100%;
+        margin-left: 4vh;
+    }
+    footer .right {
+        margin-left: 4vh;
+    }
+}
+
+
+/*******************************main*************************************/
+
+
+/****************************header****************************************/
+
+header article h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #545454;
+}
+
+header article aside .p1 {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #074F63;
+}
+
+header article aside .p2 {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+}
+
+header article button {
+    width: 125px;
+    height: 32px;
+    background: #D93F1D;
+    border-radius: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/****************************container****************************************/
+
+.container article {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container article h1 {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #074F63;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container article h1 i {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container article ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container article ul li {
+    margin-right: 0.5em;
+}
+
+.container article ul a {
+    text-decoration: none;
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8FADB5;
+}
+
+.container article p {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #808080;
+}
+
+.container article p a {
+    color: #18C4EE;
+}
+
+
+/*************************slice*****************************/
+
+.container section .banner {
+    background-image: url('/img/Rectangle.svg');
+}
+
+
+/****************************description****************************************/
+
+.container .desctiption h1,
+.title {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #074F63;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container .desctiption h1 i,
+.fa {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+}
+
+.container .desctiption h1 button,
+.btn2 {
+    background: rgba(210, 210, 210, 0.4);
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50%;
+}
+
+.container .desctiption ul li {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 5vh;
+    color: #808080;
+}
+
+
+/****************************features****************************************/
+
+.features h2 {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: rgba(7, 79, 99, 0.5);
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+.features p {
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #808080;
+}
+
+
+/*******************************contact**************************************************/
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact .contact-flex {
+    margin-top: 8vh;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    font-family: 'Manjari';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #545454;
+}
+
+.contact ul li a i {
+    color: #808080;
+    padding-right: 3vh;
+    font-size: 25px;
+}
+
+.contact .contact-left {
+    background: #FFFFFF;
+    box-shadow: -4px 4px 12px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    width: 42vh;
+    padding: 30px;
+    line-height: 5vh;
+}
+
+.contact .contact-right {
+    width: 51vh;
+}
+
+.contact .contact-right ul li {
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1vh;
+}
+
+
+/****************************footer****************************************/
+
+footer {
+    background: #007893;
+}
+
+footer p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F5F5F5;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
+}
